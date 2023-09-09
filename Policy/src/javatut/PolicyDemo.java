@@ -25,16 +25,9 @@ public class PolicyDemo {
         System.out.print("Enter Policyholder's Weight (in pounds): ");
         double weightInPounds = scanner.nextDouble();
 
-        //Policy policy = new Policy("12345", "ABC Insurance", "John", "Doe", 55, "non-smoker", 62.0, 250.0);
+    
 		Policy policy = new Policy(policyNumber, providerName, firstName, lastName, age, smokingStatus, heightInInches, weightInPounds);
-        //String policyNumber=policy.getPolicyNumber();
-        //String providerName=policy.getProviderName();
-        //String firstName=policy.getFirstName();
-        //String lastName=policy.getLastName();
-       // int age=policy.getAge();
-        //String smokingStatus=policy.getSmokingStatus();
-       // double heightInInches=policy.getHeightInInches();
-        //double weightInPounds=policy.getWeightInPounds();
+       
         double bmi = policy.calculateBMI();
         double price = policy.calculatePolicyPrice();
         
