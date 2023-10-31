@@ -2,6 +2,10 @@ package javatut;
 
 import java.util.Scanner;
 public class PolicyDemo {
+	
+	// salary  variable is a private static variable
+	private static double policy ;
+
 	public static void main(String[] args) {
 		 // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
