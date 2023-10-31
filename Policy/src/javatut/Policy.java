@@ -10,6 +10,8 @@ public class Policy {
 	    private String smokingStatus;
 	    private double heightInInches;
 	    private double weightInPounds;
+	 
+	    //private static int holderCount;
 
 	    // Default constructor with default values
 	    public Policy() {
@@ -125,6 +127,10 @@ public class Policy {
 	        }
 
 	        return baseFee + additionalFee;
+	    }
+	    
+	    public void incrementHolderCount() {
+	    	//holderCount++;
 	    }
 	}
 
